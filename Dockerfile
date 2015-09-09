@@ -21,9 +21,7 @@ RUN rm /root/cytoscape-3.2.1.tar.gz
 ADD PACKAGE/CyNetworkBMA-1.0.0_1.jar /root/CytoscapeConfiguration/3/apps/installed/CyNetworkBMA-1.0.0_1.jar
 
 # Dummy data for Demo
-ADD http://webdatascience.github.io/CyNetworkBMA/timeSeries.txt /root/DEMO/timeSeries.txt
-ADD http://webdatascience.github.io/CyNetworkBMA/insilico_size100_1_timeseries.txt /root/DEMO/insilico_size100_1_timeseries.txt
-COPY DEMO/sub_140331_VSD.txt /root/DEMO/sub_140331_VSD.txt
+ADD DEMO/ /root/DEMO/
 
 # Install required R Packages
 RUN echo 'install.packages(c("Rserve", "igraph"), repos="http://cran.us.r-project.org", dependencies=TRUE)' > /tmp/packages.R \     && Rscript /tmp/packages.R
