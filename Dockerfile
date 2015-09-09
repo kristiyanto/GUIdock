@@ -1,3 +1,4 @@
+# This is the Dockefile to build GUIdock (kristiyanto/guidock)
 # Base Docker Image
 FROM bioconductor/release_base
 
