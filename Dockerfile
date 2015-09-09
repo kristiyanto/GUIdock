@@ -14,11 +14,11 @@ ENV JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
 # Cytoscape Retrieval
 WORKDIR /root 
 ADD http://chianti.ucsd.edu/cytoscape-3.2.1/cytoscape-3.2.1.tar.gz /root/cytoscape-3.2.1.tar.gz
-ADD PACKAGE/CyNetworkBMA-1.0.0_1.jar /root/CytoscapeConfiguration/3/apps/installed/CyNetworkBMA-1.0.0_1.jar
-
 RUN tar -zxvf cytoscape-3.2.1.tar.gz 
 RUN rm /root/cytoscape-3.2.1.tar.gz
 
+# Install Cytoscape Apps / Plugin
+ADD PACKAGE/CyNetworkBMA-1.0.0_1.jar /root/CytoscapeConfiguration/3/apps/installed/CyNetworkBMA-1.0.0_1.jar
 
 # Dummy data for Demo
 ADD http://webdatascience.github.io/CyNetworkBMA/timeSeries.txt /root/DEMO/timeSeries.txt
