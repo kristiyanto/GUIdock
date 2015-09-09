@@ -21,6 +21,7 @@ RUN rm /root/cytoscape-3.2.1.tar.gz
 ADD PACKAGE/CyNetworkBMA-1.0.0_1.jar /root/CytoscapeConfiguration/3/apps/installed/CyNetworkBMA-1.0.0_1.jar
 
 # Dummy data for Demo
+# Demo contains Cytoscape session and dummy data for Dream4, Yeast, and RNASeq
 ADD DEMO/ /root/DEMO/
 
 # Install required R Packages
