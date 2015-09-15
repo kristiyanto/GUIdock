@@ -1,65 +1,49 @@
 # Docker-Bioconductor-Cytoscape
-Docker file for kristiyanto/networkbma.
+Docker file for kristiyanto/GUIdock.
+
+Source code, installation and running script, and Dockerfile available at:
+https://github.com/WebDataScience/GUIdock
 
 The package contains: Cytoscape, R, with Bioconductor packages (igraph, Rserve, and networkBMA). 
-
 A tutorial to get it run on Windows and Mac are available: 
 https://www.youtube.com/watch?v=FXOU2EZ4szI (Mac)
 https://www.youtube.com/watch?v=Y1Ye5mOMBW0 (Windows)
 
+# Linux
+## Install and Run
+Download and run runGUIdockLinux.sh from installation folder.
+Usage:
+	sh runGUIdockLinux.sh
 
-## OSX
-# PREPARATION
-# Install Docker
+
+# OSX 
+## Install
+Docker Toolbox needs to be downloaded and installed manually from the website.
 https://www.docker.com/toolbox
 
-# Install Brew 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-# Install X11 (XQuartz) 
-brew install xquartz
-# Install Socat
-brew install socat
-# TO RUN CONTAINER 
-# Get the Socat running 
-socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
-
-# Get XQuartz Running
-open -a Xquartz
-
-# Get Docker Running
-(Run Kitematic)
-
-# Run the Image (IP is your Mac IP, use ifconfig command if not sure)
-docker run -ti -e DISPLAY=192.168.99.1:0 kristiyanto/networkbma
+In addition to Docker Toolbox, GUIdock requires Socat and XQuartz.
+Download and run install-mac.sh from Installation folder.
+Usage
+	sh install-mac.sh
 
 
-## WINDOWS
-# PREPARATION
-# Install Docker
-https://www.docker.com/toolbox
+## Run GUIdock
+To Run GUIdock, download and run start-mac.sh from Installation folder
+Usage
+	sh start-mac.sh
 
-# Install MobaXterm 
-http://mobaxterm.mobatek.net/
 
-# TO RUN CONTAINER 
-# Get Docker running
-(run kitematic)
+# WINDOWS
 
-# Open MobaXterm with X11 Support
-(tools -> X11 tab with DWM)
+## Install
+Download and install Docker Toolbox from: https://www.docker.com/toolbox
+Download and install MobaXterm from: http://mobaxterm.mobatek.net/
 
-# Login into Docker VM
-ssh -X docker@192.168.99.100
-
-password is tcuser, ip is your docker VM IP. If not sure, run:
-docker-machine ip default
-
-# Run Docker
-docker run -ti -e DISPLAY=192.168.99.1:1.0 kristiyanto/networkbma
-
-IP is your Windows IP address. Use ipconfig if not sure.
-Display port (:1.0) is your current display port. Look at your MobaXterm window tab name if not sure.
+## Run GUIdock 
+Download RunGUIdock.sh and startMoba.bat from Installation folder.
+Execute RunGUIdock.sh by double-click 
+or by running from Windows Powershell:
+	sh RunGUIdock.sh
 
 
 
