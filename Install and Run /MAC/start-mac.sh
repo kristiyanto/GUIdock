@@ -1,5 +1,13 @@
 #!/bin/bash
 
+if [$(docker-machine ls | awk 'FNR == 2 {print $1}') eq ""]
+	then
+	echo "Docker Engine is not found. Please check if Docker is properly Installed."
+	echo "Script will now exit."
+	exit 1
+fi
+
+
 # The IP address is the Mac IP Brigde IP Address. 
 # Use command:
 # 		VBoxManage list bridgedifs
@@ -10,7 +18,12 @@ export MacIP="192.168.99.1"
 # This script works with other Docker Images.
 # Replace this with your selected Docker Images
 # e.g : jess/chrome
-export DockerImage="kristiyanto/guidock"
+if [ $# -eq 0 ]
+  then
+	export DockerImage="kristiyanto/guidock"
+	else
+	export DockerImage=$1
+fi
 
 # Script starts here ---
 docker-machine start $(docker-machine ls | awk 'FNR == 2 {print $1}')
