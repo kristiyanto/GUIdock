@@ -1,5 +1,13 @@
 #!/bin/bash
 
+if [$(docker-machine ls | awk 'FNR == 2 {print $1}') eq ""]
+	then
+	echo "Docker Engine is not found. Please check if Docker is properly Installed."
+	echo "Script will now exit."
+	exit 1
+fi
+
+
 # The IP address is the Mac IP Brigde IP Address. 
 # Use command:
 # 		VBoxManage list bridgedifs
