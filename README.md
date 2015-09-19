@@ -1,3 +1,6 @@
+<center><img src="logo.png" alt="GUIdock logo" width="300px" weight border=none/></center>
+
+
 # Docker-Bioconductor-Cytoscape
 Docker file for kristiyanto/GUIdock (https://hub.docker.com/r/kristiyanto/guidock/)
 
