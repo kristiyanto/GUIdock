@@ -1,4 +1,4 @@
-![alt GUIdock Logo](logo)
+![alt GUIdock Logo](logo.png)
 
 UIdock: Using Docker containers with a common graphics user interface to address the reproducibility of research
 =======
@@ -16,10 +16,11 @@ Demonstration video (for Linux, Mac, and Windows)
 https://www.youtube.com/watch?v=k1WkIx0EENo
 
 
-## Linux
-<strong>Install and Run</strong>
+Linux
+-----
+Install and Run
 Download and run runGUIdockLinux.sh from installation folder.  
-Usage:<br/>
+Usage:   
 	`sh runGUIdockLinux.sh`
 
 The script creates folder ~/.guidock/GUIdock-SHARED within user's home directory. The folder is linked to /root/GUIdock-SHARED in the container.
@@ -27,8 +28,9 @@ The script creates folder ~/.guidock/GUIdock-SHARED within user's home directory
 Instructional Video: https://www.youtube.com/watch?v=HOtI1Eg2J1Q
 
 
-## OSX 
-<strong>Install</strong>
+OSX 
+---
+Install
 Docker Toolbox needs to be downloaded and installed manually from the website.
 https://www.docker.com/toolbox
 
@@ -40,29 +42,31 @@ Usage:
 Instructional Video: https://www.youtube.com/watch?v=4Qg0fCDOxhY
 
 
-<strong>Run GUIdock</strong>
+Run GUIdock
+-----------
 To Run GUIdock, download and run start-mac.sh from Installation folder.  
-Usage:<br/>
+Usage:   
 	`sh start-mac.sh`
 
 
-## WINDOWS
-
-<strong>Install</strong>
+WINDOWS
+-------
+Install
 Download and install Docker Toolbox from: https://www.docker.com/toolbox  
 Download and install MobaXterm from: http://mobaxterm.mobatek.net/
 
 Instructional Video: https://www.youtube.com/watch?v=cA7HVCB064I
 
-<strong>Run GUIdock</strong>
+Run GUIdock
 Download RunGUIdock.sh and startMoba.bat from Installation folder.  
 Execute RunGUIdock.sh by double-click  
 or by running from Windows Powershell:  
 	`sh RunGUIdock.sh`
 
 
-## Contact
-Ling-Hong Hung􏰀, Daniel Kristiyanto􏰀, Sung Bong Lee􏰀, Ka Yee Yeung  
+Contact
+-------
+Ling-Hong Hung, Daniel Kristiyanto, Sung Bong Lee, Ka Yee Yeung  
 Institute of Technology  
 University of Washington  
 Tacoma, WA 98402, USA  
