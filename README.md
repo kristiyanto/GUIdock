@@ -17,7 +17,7 @@ https://www.youtube.com/watch?v=k1WkIx0EENo
 
 Publication
 -----------
-[Hung, Ling-Hong, Daniel Kristiyanto, Sung Bong Lee, and Ka Yee Yeung. "GUIdock: Using Docker Containers with a Common Graphics User Interface to Address the Reproducibility of Research." _PloS one_ 11, no. 4 (2016): e0152686.](http://dx.doi.org/10.1371/journal.pone.0152686)
+Hung, Ling-Hong, Daniel Kristiyanto, Sung Bong Lee, and Ka Yee Yeung. "GUIdock: Using Docker Containers with a Common Graphics User Interface to Address the Reproducibility of Research." [_PloS one_ 11, no. 4 (2016): e0152686.](http://dx.doi.org/10.1371/journal.pone.0152686)
 
 http://dx.doi.org/10.1371/journal.pone.0152686
 
