@@ -23,11 +23,12 @@ http://dx.doi.org/10.1371/journal.pone.0152686
 
 Linux
 -----
-** Install and Run **
+**Install and Run**
 Download and run runGUIdockLinux.sh from installation folder.  
-Usage:   
-	`sh runGUIdockLinux.sh`
-
+Usage:
+```
+sh runGUIdockLinux.sh
+```
 The script creates folder ~/.guidock/GUIdock-SHARED within user's home directory. The folder is linked to /root/GUIdock-SHARED in the container.   
 
 Instructional Video: https://www.youtube.com/watch?v=HOtI1Eg2J1Q
@@ -42,13 +43,16 @@ https://www.docker.com/toolbox
 In addition to Docker Toolbox, GUIdock requires Socat and XQuartz.
 Download and run install-mac.sh from Installation folder.  
 Usage:  
-	`sh install-mac.sh`
+```
+sh install-mac.sh
+```
 
 ** Run GUIdock **
 To Run GUIdock, download and run start-mac.sh from Installation folder.  
 Usage:   
-	
-	`sh start-mac.sh`
+```	
+sh start-mac.sh
+```
 
 Instructional Video: https://www.youtube.com/watch?v=4Qg0fCDOxhY
 
@@ -63,7 +67,9 @@ Download and install MobaXterm from: http://mobaxterm.mobatek.net/
 Download RunGUIdock.sh and startMoba.bat from Installation folder.  
 Execute RunGUIdock.sh by double-click or by running from Windows Powershell:  
 	
-	`sh RunGUIdock.sh`
+```
+sh RunGUIdock.sh
+```
 
 Instructional Video: https://www.youtube.com/watch?v=cA7HVCB064I
 
