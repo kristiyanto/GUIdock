@@ -5,16 +5,17 @@ GUIdock: Using Docker containers with a common graphics user interface to addres
 
 GUIdock is a Docker Package containing the entire computational environment to run applications with a graphical user interface.  As a proof of concept, we focus on supporting Cytoscape, a Java-based standalone program with a graphical user interface for the visualization and analyses of gene networks in biology.  In addition to Cytoscape, our container includes R, Rserve, Bioconductor packages igraph, networkBMA and a Cytoscape app called CyNetworkBMA.  GUIdock contains the entire pipeline and all the tools (including Cytoscape that connects to preloaded RServe, a Bioconductor package called “networkBMA” and all its dependencies) to generate gene regulatory networks.
 
-Docker file for kristiyanto/GUIdock (https://hub.docker.com/r/kristiyanto/guidock/)
+Docker file for biodepot/GUIdock (https://hub.docker.com/r/biodepot/guidock/)
 
-Source code, installation and running script, and Dockerfile available at:  
-[[https://www.youtube.com/embed/Te1yC_AkvzQ](demo.png)](https://www.youtube.com/embed/Te1yC_AkvzQ)
+Source code, installation and running script, and Dockerfile available at:
+[https://github.com/BioDepot/GUIdock](https://github.com/BioDepot/GUIdock)
 
 The package contains: Cytoscape, R, with Bioconductor packages (igraph, Rserve, and networkBMA). 
 
 Demonstration video (for Linux, Mac, and Windows)   
-[https://www.youtube.com/watch?v=k1WkIx0EENo](https://www.youtube.com/watch?v=k1WkIx0EENo
-)
+![https://www.youtube.com/embed/Te1yC_AkvzQ](demo.png)
+[https://www.youtube.com/embed/Te1yC_AkvzQ](https://www.youtube.com/embed/Te1yC_AkvzQ)
+
 
 Publication
 -----------
