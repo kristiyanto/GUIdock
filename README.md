@@ -8,7 +8,7 @@ GUIdock is a Docker Package containing the entire computational environment to r
 Docker file for kristiyanto/GUIdock (https://hub.docker.com/r/kristiyanto/guidock/)
 
 Source code, installation and running script, and Dockerfile available at:  
-[demo.png](https://www.youtube.com/embed/Te1yC_AkvzQ)
+[https://www.youtube.com/embed/Te1yC_AkvzQ](demo.png)
 
 The package contains: Cytoscape, R, with Bioconductor packages (igraph, Rserve, and networkBMA). 
 
