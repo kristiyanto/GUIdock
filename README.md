@@ -13,7 +13,7 @@ Source code, installation and running script, and Dockerfile available at:
 The package contains: Cytoscape, R, with Bioconductor packages (igraph, Rserve, and networkBMA). 
 
 Demonstration video (for Linux, Mac, and Windows)   
-[![https://www.youtube.com/embed/Te1yC_AkvzQ](demo.png)](https://www.youtube.com/embed/Te1yC_AkvzQ)
+[![Demo Video](demo.png)](https://youtu.be/Te1yC_AkvzQ)
 
 
 Publication
