@@ -32,7 +32,7 @@ RUN echo 'biocLite("networkBMA")' >> /tmp/packages.R \ && Rscript /tmp/packages.
 
 # Build a Script to start Rserve
 RUN echo 'library("Rserve")' > /root/rserve.R
-RUN echo 'Rserve()' >> /root/rserve.R 
+RUN echo 'Rserve(args="--no-save")' >> /root/rserve.R 
 
 # Build a Script to start run Rserve and Launch Cytoscape
 RUN echo 'Rscript /root/rserve.R' > /root/start.sh
