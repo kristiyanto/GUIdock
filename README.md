@@ -1,4 +1,4 @@
-[![](https://images.microbadger.com/badges/image/kristiyanto/guidock.svg)](https://microbadger.com/images/kristiyanto/guidock "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/kristiyanto/guidock.svg)](http://microbadger.com/images/kristiyanto/guidock "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/kristiyanto/guidock.svg)](http://microbadger.com/images/kristiyanto/guidock "Get your own version badge on microbadger.com")
 
 ![alt GUIdock Logo](https://raw.githubusercontent.com/kristiyanto/GUIdock/master/logo.png)
 
