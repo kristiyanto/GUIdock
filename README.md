@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/kristiyanto/guidock.svg)](https://microbadger.com/images/kristiyanto/guidock "Get your own image badge on microbadger.com")
+
 ![alt GUIdock Logo](https://raw.githubusercontent.com/kristiyanto/GUIdock/master/logo.png)
 
 GUIdock: Using Docker containers with a common graphics user interface to address the reproducibility of research
