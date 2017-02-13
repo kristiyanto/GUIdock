@@ -9,7 +9,7 @@ MAINTAINER Daniel Kristiyanto, danielkr@uw.edu
 RUN apt-get update
 RUN sudo apt-get -q -y install default-jdk
 RUN apt-get clean
-ENV JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+#ENV JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64 
 
 # Cytoscape Retrieval
 WORKDIR /root 
