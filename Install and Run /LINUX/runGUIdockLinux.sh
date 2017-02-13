@@ -47,4 +47,4 @@ fi
 xhost +
 mkdir -p $SHAREDFOLDER > /dev/null
 echo "Shared Folder is created:$SHAREDFOLDER"
-sudo docker run -ti -e USERID=$UID -e USER=$USER -e DISPLAY=$DISPLAY -v /var/db:/var/db:Z -v /tmp/.X11-unix:/tmp/.X11-unix -v $SHAREDFOLDER:/root/GUIdock-SHARED -v $HOME/.Xauthority:/home/developer/.Xauthority $IMAGE 
+sudo docker run -ti -e USERID=$UID -e USER=$USER -e JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/ -e DISPLAY=$DISPLAY -v /var/db:/var/db:Z -v /tmp/.X11-unix:/tmp/.X11-unix -v $SHAREDFOLDER:/root/GUIdock-SHARED -v $HOME/.Xauthority:/home/developer/.Xauthority $IMAGE 
